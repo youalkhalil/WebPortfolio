@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the professional portfolio of Yousef Al Khalil. Dive into a showcase of innovative marketing strategies, technological projects, and a comprehensive record of academic and professional achievements. Discover the journey of a Toronto Metropolitan University student driven by data insights and creative solutions in business.">
+    <meta name="keywords" content="Yousef Al Khalil, professional portfolio, marketing strategies, technology projects, academic achievements, Toronto Metropolitan University, business growth, creative solutions, data insights">
+    <meta name="author" content="Yousef Al Khalil">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <title>Yousef Al Khalil - Personal Portfolio</title>
 </head>
+
+
 <body>
+  <header>
     <!-- Navbar-->
-  <nav class="navbar navbar-dark bg-secondary px-3 mb-3">
+  <nav class="navbar navbar-dark bg-dark px-3 mb-3">
     <div class="container-xxl">
         <a class="navbar-brand" href="#homepage"> <img src="Logo.png" alt="logo of yousef" width="90" height="72" class="d-inline-block align-text-top rounded float-start"> </a>
         
@@ -36,56 +43,60 @@
                 <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Contact</a>
+                <a class="nav-link" href="#contact-me">Contact</a>
             </li>
         </ul>
 
 
 
     </div>
-
+  </header>
     
   </nav> 
  <main id="homepage">
     <!--The home page grid container and contents-->
-    <div class="container" >
-        <div class="row gx-20 align-items-center" >
-            <div class="col ">
-                <div class="p-5 bg-dark-subtle rounded"><h1 class="display-2">Welcome</h1>
-                    <br>
-                    <p>Welcome to  Yousef's professional portfolio where you can find out more on his career accomplishments, experience, education, and skills.</p></div>
-            </div>
-            <div class="col  ">
-               <div class="p-2 bg-dark-subtle rounded text-center"><br><img src="Portrait.jpg" class="img-fluid rounded-circle" alt="picture of yousef" width="200" height="200"> <div class="text-start">I'm Yousef Al Khalil, a marketing enthusiast and tech-savvy student from Toronto Metropolitan University, driven by data insights and creative solutions in business growth. </div>  </div> 
-               
-            </div>
-            
-            <!-- Image Carousel-->
-            <div class="col ">
-                <div class="p-3 bg-dark-subtle rounded"><div id="carousel" class="carousel slide">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Logo.png" class="d-block w-100 " height="310" alt="..." >
+    <div class="container">
+      <div class="row align-items-stretch"> <!-- Use align-items-stretch for equal height -->
+          <div class="col-md-4 mb-2">
+              <div class="card h-100 p-5 bg-dark rounded" style="color: #f8f9fa;">
+                  <h1 class="display-2" style="color: #17a2b8;">Welcome!</h1>
+                  <p class="text-center fs-4">Discover Yousef Al Khalil's journey through innovation in marketing and technology. Dive into a portfolio showcasing professional achievements, academic background, and a diverse skill set that drives business growth and creative solutions.</p>
+              </div>
+          </div>
+          
+          <div class="col-md-4 mb-2">
+              <div class="card h-100 p-2 bg-dark rounded text-center" style="color: #f8f9fa;">
+                  <img src="Portrait.jpg" class="img-fluid rounded-circle mb-3" alt="Yousef wearing a red polo shirt " width="200" height="200">
+                  <div class="fs-4">I'm Yousef Al Khalil, a marketing enthusiast and tech-savvy student from Toronto Metropolitan University, driven by data insights and creative solutions in business.</div>
+              </div>
+          </div>
+          
+          <div class="col-md-4 mb-2">
+              <div class="card h-100 p-3 bg-dark rounded" style="color: #f8f9fa;">
+                  <div id="carousel" class="carousel slide h-100">
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img src="Logo.png" class="d-block w-100" alt="yousef alkhalil brand">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="image1.jpg" class="d-block w-100" alt="yousef walking down the stairs wearing a suit with chandeliers in the background.">
+                          </div>
+                          
                       </div>
-                      <div class="carousel-item">
-                        <img src="image1.jpg" class="d-block w-100" alt="..." >
-                      </div>
-                      <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" ></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div></div>
-            </div>
-        </div>
-    </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                          <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                          <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
  <!-- Tab feature and its content-->
     <div class="container my-5 ">
         <nav>
@@ -100,30 +111,77 @@
         <div class="tab-content" id="nav-tab-content">
         <div class="tab-pane fade show active p-3" id="nav-experience" role="tabpanel">
             <h2 class="display-3">Experience</h2>
+            <div class="container">
+            
             <div class="row">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card" style="width: 18rem;">
-                        <img src="4S.png" class="card-img-top" alt="...">
-                        <div class="card-body">
+                <div class="col-md-6 mb-2 d-flex align-items-stretch">
+                    <div class="card " style="width: 100%;">
+                        <img src="4S.png" class="card-img-top" style="height:350px" alt=" 4S Consuting logo">
+                        <div class="card-body d-flex flex-column">
                           <h5 class="card-title">4S Consulting</h5>
                           <p class="card-text"><strong>Marketing Specialist</strong> - <time datetime="2023-09"> September, 2023</time> - <time datetime="2024-01"> January, 2024 </p>
-                          <a  class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvas4s" role="button">Read More</a>
+                          <a  class="btn btn-primary mt-auto" data-bs-toggle="offcanvas" href="#offcanvas4s" role="button">Read More</a>
                           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas4s" aria-labelledby="offcanvasExampleLabel">
                             <div class="offcanvas-header">
-                              <h5 class="offcanvas-title" id="offcanvas4s">Offcanvas</h5>
+                              <h5 class="offcanvas-title" id="offcanvas4s">4S Consulting</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
                               <div>
-                                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                              </div>
 
+                                <ul>
+                                  <li>Spearheaded marketing initiatives to enhance audience engagement through diverse channels,
+                                    resulting in a 10% increase in leads.</li>
+                                    <li>Conducted market research and competitor analysis, presenting actionable insights to management,
+                                      contributing to strategic decision-making.</li>
+                                      <li>Collaborated closely with the CEO and upper management on high-impact marketing projects,
+                                        enhancing brand visibility and outreach.</li>
+                                        <li>Streamlined data collection and analysis processes, improving operational efficiency by 30%.</li>
+                                        <li>Executed 15 contracts resulting in $42,000 in revenue.</li>
+
+                              
+                                </ul>
+                                 
+                              
+                              </div>
+                            
                               </div>
                               </div>
 
                         </div>
                  </div>
+
+                 
             </div>
+            <div class="col-md-6 mb-2 d-flex align-items-stretch">
+                    <div class="card" style="width: 100%;">
+                        <img src="k1speed.png" class="card-img-top" alt="k1 speed logo">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">K1 Speed</h5>
+                          <p class="card-text"><strong>Track Attendant</strong> - <time datetime="2021-04"> April, 2021</time> - <time datetime="2023-06"> June, 2023 </p>
+                          <a  class="btn btn-primary mt-auto" data-bs-toggle="offcanvas" href="#offcanvask1" role="button">Read More</a>
+                          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvask1" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvask1s">K1 Speed</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              <div>
+                                <ul><li>Led a team of 5 in managing race schedules and customer safety, enhancing overall operational
+                                  efficiency.</li>
+                                  <li>Implemented innovative solutions to maintain schedule adherence, reducing delays to almost zero.</li>
+                                  <li>Provided exceptional customer service, resolving conflicts, and ensuring a high satisfaction rate.</li>
+                                
+                                </ul>
+                              </div>
+
+                              </div>
+                              </div>
+                        </div>
+                    </div>
+                        </div>
+                 </div>
+
             </div>
                
 
@@ -134,37 +192,32 @@
         <div class="tab-pane fade show p-3" id="nav-education" role="tabpanel">
             <h2 class="display-3">Education</h2>
             
-
-            <div class="row">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card" style="width: 18rem;">
-                        <img src="TMU.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Toronto Metropolitan University</h5>
-                          <p class="card-text"><strong>BComm, Business Technology Management CO-OP</strong> - <time datetime="2021-09"> September, 2021</time> - present </p>
-                          <a href="https://www.torontomu.ca/" class="btn btn-primary">School Site</a>
-                        </div>
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-6 mb-2 d-flex align-items-stretch">
+                      <div class="card" style="width: 100%; ">
+                          <img src="TMU.jpg" class="card-img-top" alt="toronto metropolitan university logo">
+                          <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Toronto Metropolitan University</h5>
+                              <p class="card-text"><strong>BComm, Business Technology Management CO-OP</strong> - <time datetime="2021-09"> September, 2021</time> - present </p>
+                              <a href="https://www.torontomu.ca/" class="btn btn-primary mt-auto">School Site</a>
+                          </div>
                       </div>
-
-
-                </div>
-                
-                <div class="col-sm-5 mb-2 mb-sm-0">
-                    <div class="card" style="width: 18rem;">
-                        <img src="Goetz.jpg" class="card-img-top" alt="..." height="225">
-                        <div class="card-body">
-                          <h5 class="card-title">Father Michael Goetz</h5>
-                          <p class="card-text"><Strong>High School Diploma</strong> - <time datetime="2017-09"> September, 2017</time> - <time datetime="2021-06"> June, 2017</time> </p>
-                          <a href="https://www.dpcdsb.org/goetz" class="btn btn-primary">School Site</a>
-                        </div>
+                  </div>
+          
+                  <div class="col-md-6 mb-2 d-flex align-items-stretch">
+                      <div class="card" style="width: 100%;">
+                          <img src="Goetz.jpg" class="card-img-top" style="height:390px" alt="father michael goetz secondary school crest">
+                          <div class="card-body d-flex flex-column">
+                              <h5 class="card-title">Father Michael Goetz</h5>
+                              <p class="card-text"><strong>High School Diploma</strong> - <time datetime="2017-09"> September, 2017</time> - <time datetime="2021-06"> June, 2021</time> </p>
+                              <a href="https://www.dpcdsb.org/goetz" class="btn btn-primary mt-auto">School Site</a>
+                          </div>
                       </div>
-                      
-
-                </div>
-                 
-
-
-            </div>
+                  </div>
+              </div>
+          </div>
+          
 
 
 
@@ -177,23 +230,181 @@
         <div class="tab-pane fade show p-3" id="nav-skills" role="tabpanel">
             <h2 class="display-3">Skills</h2>
 
+            
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <button type="button" class="btn btn-primary mb-2">Strategic Marketing & Sales Planning</button>
+                          <p>Expertise in developing and implementing comprehensive marketing and sales strategies that drive growth.</p>
+                      </div>
+                      <div class="col-md-6">
+                          <button type="button" class="btn btn-primary mb-2">Data Analysis & Market Research</button>
+                          <p>Proficient in utilizing data analytics tools to gather market insights and inform decision-making processes.</p>
+                      </div>
+                      <div class="col-md-6">
+                          <button type="button" class="btn btn-primary mb-2">Communication & Collaboration</button>
+                          <p>Exceptional communication skills, facilitating effective collaboration with stakeholders at all levels.</p>
+                      </div>
+                      <div class="col-md-6">
+                          <button type="button" class="btn btn-primary mb-2">Software Proficiency</button>
+                          <p>Sufficient in using Canva, Mailchimp, Excel, Word, and HubSpot CRM.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+
 
         </div>  
         </div>
 
 
     </div>
-    <div class="container" >
+    <section id="portfolio" class="my-5">
+      <div class="container mb-4">
+          <h2 class="display-3 mb-4">Work Portfolio</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+              <!-- Project 1 -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="project1_detailed.jpg" class="card-img-top" alt="Project 1 image">
+                      <div class="card-body">
+                          <h5 class="card-title">Working at Heights Marketing Campaign</h5>
+                          <p class="card-text">Analyzed workplace safety data to design a compelling flyer and execute a targeted social media campaign, enhancing awareness of "Working at Heights" protocols in Ontario.</p>
+                          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">Learn More</button>
+                      </div>
+                      <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="project1ModalLabel">Working at Heights Social Media Campaign</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="project1_detailed.jpg" class="img-fluid mb-3" alt="Detailed view of Project 1">
+                                    <p>For the "Ontario Working at Heights Awareness Campaign," I gathered crucial statistics on workplace injuries to highlight the importance of safety practices in construction. Using these insights, I designed an engaging flyer and led a targeted social media campaign, significantly raising awareness about the necessity of adhering to working at heights safety protocols across Ontario. This project not only showcased my ability to analyze and apply data but also my skills in creating compelling visual content and executing effective digital marketing strategies.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://www.linkedin.com/posts/4s-consulting-services-inc-_safetyfirst-fallprevention-heightsafetyawareness-activity-7130592156599128066-VFWl?utm_source=share&utm_medium=member_desktop" class="btn btn-primary" target="_blank">Visit Project</a>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <!-- Project 2 -->
+            <div class="col">
+              <div class="card h-100">
+                  <img src="project2_detailed.png" class="card-img-top" style="height: 540px;" alt="Project 2 image">
+                  <div class="card-body">
+                    
+                      <h5 class="card-title">JHSC Sales Campaigns</h5>
+                      <p class="card-text">Crafted an impactful sales video and spearheaded a social media campaign for Ontario's Joint Health and Safety Committee, significantly boosting workplace safety awareness.</p>
+                      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">Learn More</button>
+                  </div>
+                  <!-- Modal for Project 2 -->
+<div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="project2ModalLabel">JHSC Sales Campaign</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <img src="project2_detailed.png" class="img-fluid mb-3" alt="Detailed view of Project 1">
+              <p>For a project aimed at enhancing workplace safety, I crafted a compelling sales video and orchestrated a targeted social media campaign for the Joint Health and Safety Committee of Ontario. Leveraging creative storytelling and strategic content placement, this initiative successfully heightened awareness about the importance of health and safety protocols across diverse industries in Ontario, leading to increased engagement and adherence to safety practices. Through this multifaceted approach, the campaign effectively communicated vital safety information, emphasizing the committee's commitment to fostering safer work environments throughout the region.</p>
+          </div>
+          <div class="modal-footer">
+              <a href="https://www.linkedin.com/posts/4s-consulting-services-inc-_4safetysale-jhsctraining-savebig-ugcPost-7134937835840684032-INZZ?utm_source=share&utm_medium=member_desktop" class="btn btn-primary" target="_blank">Visit Project</a>
+          </div>
+      </div>
+  </div>
+  
+</div>
+              </div>
+
+          </div>
+           <!-- Project 3 -->
+           <div class="col">
+            <div class="card h-100">
+                <img src="project3_detailed.png" class="card-img-top" style="height: 540px;" alt="Project 3 image">
+                <div class="card-body">
+                    <h5 class="card-title">Awareness Campaign for Traffic Safety Planning</h5>
+                    <p class="card-text">Crafted a compelling road safety campaign highlighting the crucial impact of traffic safety on construction workers' lives through engaging video content and social media outreach.</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Project 3 -->
+<div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="project3ModalLabel">Awareness Campaign for Traffic Safety Planning</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <img src="project3_detailed.png" class="img-fluid mb-3" alt="Detailed view of Project 1">
+              <p>Developed an impactful video and social media campaign focused on road safety, specifically targeting the well-being of construction workers. This initiative emphasized the critical need for stringent traffic safety planning and practices to safeguard those who build and maintain our roadways, highlighting personal stories and data-driven evidence to drive home the importance of road safety measures in construction zones.</p>
+          </div>
+          <div class="modal-footer">
+              <a href="https://www.linkedin.com/posts/4s-consulting-services-inc-_trafficsafety-safetyplanning-roadsafety-ugcPost-7118294621230702592-pQ1G?utm_source=share&utm_medium=member_desktop" class="btn btn-primary" target="_blank">Visit Project</a>
+          </div>
+      </div>
+  </div>
+</div>
+    </div>
+          </div>
+
+          
+    <footer>
+    <!-- Contact Me Section -->
+    <div class="container" id="contact-me">
         <div class="row galign-items-center" >
             <div class="col ">
-                <div class="p-5 bg-dark-subtle rounded"><h1 class="display-2">Contact Info</h1>
+                <div class="p-5 bg-dark-subtle rounded"><h1 class="display-2 text-center">Contact Me</h1>
                     <br>
-                    <p></p></div>
+                    <div class="container my-5" >
+                     
+                      <div class="row justify-content-center">
+                          <div class="col-md-8">
+                              <div class="card p-4">
+                                  <!-- Formspree Form to recieve the submissions-->
+                                  <form action="https://formspree.io/f/xeqypqzb" method="POST">
+                                      <div class="mb-3">
+                                          <label for="name" class="form-label">Name</label>
+                                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                      </div>
+                                      <div class="mb-3">
+                                          <label for="email" class="form-label">Email</label>
+                                          <input type="email" name="_replyto" class="form-control" id="email" placeholder="Your Email" required>
+                                      </div>
+                                      <div class="mb-3">
+                                          <label for="message" class="form-label">Message</label>
+                                          <textarea class="form-control" name="message" id="message" rows="3" placeholder="Your Message" required></textarea>
+                                      </div>
+                                      <input type="hidden" name="_subject" value="New submission from your portfolio website!">
+                                      <button type="submit" class="btn btn-primary">Send Message</button>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="text-center mt-4">
+                          <p>Or reach out directly at:</p>
+                          <p><strong>Email:</strong> Yousef.al@torontomu.ca</p>
+                          <p><strong>Phone:</strong> 647-648-0934</p>
+                      </div>
+                    </div>
+                    </div>
             </div>
-
+          </footer>
 
  </main>
  
+
+
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
